@@ -5,13 +5,14 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var index = require('./routes/index');
-var users = require('./routes/users');
+var index = require('./app_server/routes/index'); //note: bb updated this though not asked to
+var users = require('./app_server/routes/users'); //note: bb updated according to pg 67
+//var routes= require('./app_server/routes/users'); //note: bb added this. whole line was not here. seems to work without it
 
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'app_server', 'views')); //bb updated according to pg 66
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
