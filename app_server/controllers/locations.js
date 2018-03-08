@@ -12,5 +12,5 @@ module.exports.locationInfo =function(req,res){
 
 /*GET 'addReview' page */
 module.exports.addReview =function(req,res){
-    res.render('index.jade', {title:'Add Review'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
+    res.render('location-review-form.jade', {title:'Add Review'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
 };

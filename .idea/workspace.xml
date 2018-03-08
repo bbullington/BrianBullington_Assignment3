@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a3f6c4-5238-401a-bf64-f7bbddf6e4bf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app_server/controllers/locations.js" afterPath="$PROJECT_DIR$/app_server/controllers/locations.js" />
+      <change beforePath="$PROJECT_DIR$/app_server/controllers/others.js" afterPath="$PROJECT_DIR$/app_server/controllers/others.js" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,6 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,8 +41,18 @@
       <file leaf-file-name="others.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/controllers/others.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generic-text.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_server/views/generic-text.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,7 +68,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location-info.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="location-review-form.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_server/views/location-review-form.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location-info.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/views/location-info.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
@@ -92,16 +123,18 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/main.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app_server/views/index.jade" />
-        <option value="$PROJECT_DIR$/app_server/controllers/others.js" />
         <option value="$PROJECT_DIR$/app_server/routes/index.js" />
         <option value="$PROJECT_DIR$/app_server/views/layout.jade" />
         <option value="$PROJECT_DIR$/app_server/views/locations-list.jade" />
-        <option value="$PROJECT_DIR$/app_server/controllers/locations.js" />
         <option value="$PROJECT_DIR$/app_server/views/location-info.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app_server/controllers/locations.js" />
+        <option value="$PROJECT_DIR$/app_server/views/location-review-form.jade" />
+        <option value="$PROJECT_DIR$/app_server/controllers/others.js" />
+        <option value="$PROJECT_DIR$/app_server/views/generic-text.jade" />
       </list>
     </option>
   </component>
@@ -173,6 +206,17 @@
               <item name="BrianBullington_Assignment3" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BrianBullington_Assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrianBullington_Assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrianBullington_Assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrianBullington_Assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,12 +269,12 @@
       <workItem from="1520207956895" duration="1963000" />
       <workItem from="1520212517740" duration="71000" />
       <workItem from="1520212623418" duration="4689000" />
-      <workItem from="1520477581108" duration="11541000" />
+      <workItem from="1520477581108" duration="13325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18698000" />
+    <option name="totallyTimeSpent" value="20482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-323" width="1883" height="1047" extended-state="0" />
@@ -418,26 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/controllers/others.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -450,18 +478,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/locations-list.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/location-info.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="86" column="116" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="86" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -474,10 +510,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/location-info.jade">
+    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="86" column="116" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="86" selection-end-column="116" />
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/others.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/location-review-form.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/generic-text.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
