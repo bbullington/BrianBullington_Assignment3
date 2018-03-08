@@ -19,7 +19,16 @@ html
           ul.nav.navbar-nav
             li
               a(href='/about/') About
+              //a(href='/') Locations
 
-    block content
+    .container
+      block content
+      footer
+        .row
+          .col-xs-12
+            small &copy; Brian Bullington 2018
+
+
+
     script(src='/javascripts/jquery-1.11.1.min.js')
     script(src='/bootstrap/js/bootstrap.min.js')
