@@ -10,7 +10,7 @@ module.exports.homelist =function(req,res){
           strapline: 'Find places to work with wifi near you!!!!!!'
       },
       locations: [{
-          name: 'Starcups',
+          name: 'Jeremy Coffee',
           address: '125 High Street, Reading, RG6, 1PS',
           rating: 3,
           facilities: ['Hot drinks', 'Food', 'Premium wifi'],
