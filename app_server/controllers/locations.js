@@ -2,7 +2,7 @@
 
 /*GET 'home' page */
 module.exports.homelist =function(req,res){
-  res.render('locations-list.jade', {
+  res.render('notesnotes.jade', {
       title: 'Loc8r - find a place to work with wifi',
       sidebar: "So you are looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
       pageHeader: {
@@ -34,7 +34,7 @@ module.exports.homelist =function(req,res){
 
 /*GET 'location info' page */
 module.exports.locationInfo =function(req,res){
-    res.render('location-info.jade', {title:'Location Info'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
+    res.render('newnote.jadenewnote', {title:'Location Info'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
 };
 
 /*GET 'addReview' page */
