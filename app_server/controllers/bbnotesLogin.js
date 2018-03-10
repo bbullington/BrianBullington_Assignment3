@@ -2,7 +2,7 @@
 
 /*GET 'home' page */
 module.exports.login =function(req,res){
-  res.render('locations-list.jade', {
+  res.render('notesnotes.jade', {
       title: 'Login',
       sidebar: "So you are looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
       pageHeader: {

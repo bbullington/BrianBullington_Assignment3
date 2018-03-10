@@ -2,7 +2,7 @@
 
 /*GET 'home' page */
 module.exports.notesList =function(req,res){
-  res.render('locations-list.jade', {
+  res.render('notes.jade', {
       title: 'Notes List',
       sidebar: "We think everybody has something to say (or at least we think everyone thinks they have something to say",
       pageHeader: {
