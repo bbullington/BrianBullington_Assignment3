@@ -67,13 +67,8 @@ module.exports.notesList =function(req,res){
 };
 
 
-/*GET 'location info' page */
-module.exports.noteEdit =function(req,res){
-    res.render('newnote.newnote.jade', {title:'Note Editor'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
+/*GET 'new note' page */
+module.exports.newnote =function(req,res){
+    res.render('newnote.jade', {title:'Note Editor'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
 };
-
-/*GET 'addReview' page */
-// module.exports.addReview =function(req,res){
-//     res.render('location-review-form.jade', {title:'Add Review'});  //.jade added for clarity. This sends for index.jade, giving it a variable for title
-// };
 

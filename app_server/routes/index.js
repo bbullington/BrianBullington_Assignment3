@@ -11,12 +11,15 @@ var ctrlBbNotesLogin = require('../controllers/bbnotesLogin.js')
 
 /*Locations pages*/      //routes to controllers/locations.js when URL comes in
 router.get('/notes', ctrlBbnotes.notesList);
-router.get('/newnote', ctrlBbnotes.noteEdit);
+router.get('/newnote', ctrlBbnotes.newnote);
 
 
 /*Login Page */     //routes to controllers/others.js when URL comes in
-
 router.get('/', ctrlBbNotesLogin.login);
+
+
+
+
 //router.get('/location/review/new', ctrlLocations.addReview);
 
 /*Other pages */     //routes to controllers/others.js when URL comes in
